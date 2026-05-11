@@ -12,7 +12,6 @@ class Solution:
         y = max(z)
         for j in range(len(z)):
             x = x + np.exp(z[j]-y)
-        print(x)
         for i in range(len(z)):
             z[i] = np.exp(z[i]-y)/x
             z[i] = np.round(z[i],4)
