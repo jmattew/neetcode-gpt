@@ -6,5 +6,4 @@ class Solution:
         # Round final answer to 5 decimal places
         for i in range(iterations):
             init = init - learning_rate*(2*init)
-        
         return round(init, 5)
